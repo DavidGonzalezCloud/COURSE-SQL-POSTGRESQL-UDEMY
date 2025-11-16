@@ -1,0 +1,6 @@
+En una tabla que tiene una columna de ID y Nombre.
+En la columna de nombre esta el primer nombre y primer apellido
+Ejemplo: David Gonzalez
+
+La tarea consiste en crear una columna exclusiva para el primer nombre y otra para el apellido.
+Luego hay que actualizar esas columnas para que se agregue solo el primer nombre y solo el primer apellido a sus respectivas columnas.
