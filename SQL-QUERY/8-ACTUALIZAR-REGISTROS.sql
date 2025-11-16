@@ -1,0 +1,4 @@
+-- ACTUALIZAR UN REGISTRO EN UNA TABLA
+UPDATE usuarios
+SET edad = 28
+WHERE id = 1;
