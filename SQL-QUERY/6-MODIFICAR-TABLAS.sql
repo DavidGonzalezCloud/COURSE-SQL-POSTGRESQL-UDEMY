@@ -1,0 +1,14 @@
+-- AGREGAR UNA COLUMNA A LA TABLA
+ALTER TABLE productos
+ADD correo VARCHAR(100) UNIQUE;
+
+-- ELIMINAR UNA COLUMNA DE LA TABLA
+ALTER TABLE productos
+DROP COLUMN correo;
+
+-- Cambiar tipo de dato de columna
+ALTER TABLE productos
+ALTER COLUMN precio TYPE NUMERIC(12, 2);
+
+-- ELIMINAR UNA TABLA
+DROP TABLE productos;
