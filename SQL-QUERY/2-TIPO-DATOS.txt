@@ -1,0 +1,102 @@
+#TIPO DE DATOS NUMERICOS
+    -INT (INTEGER)
+        -Numero entero sin decimales
+        -Rango: aprox. –2,147,483,648 a 2,147,483,647
+
+    -SMALLINT
+        -Entero pequeño
+        -Ahorro de memoria
+
+    -BIGINT
+        -Entero gigante
+        -Hecho para contadores grandes
+
+
+#DECIMALES EXACTOS
+    -Numeric
+        -preciso sin errores de redondeo
+        Sirve para dinero y finanzas
+
+#DECIMAL NO EXACTOS
+
+    -real
+        -precision simple
+        -Valores cientificos
+
+    -DOUBLE PRECISION
+        -Precision doble
+        -Estaditica y calculos ciencificos
+
+#TEXTO
+    -CHAR
+        -Lenguitud fija
+        -Codigos iso, Abreviaturas
+
+    -VARCHAR
+        -Lenguitud variable con limite
+        -nombres, correos, textos cortos
+
+    -TEXT
+        -Longuitud ilimitada
+        -Descripciones largas, JSON sin estructura
+
+
+# FECHA Y TIEMPO
+    -DATE
+        -Solo fecha
+        -2025-11-15
+    
+    -TIME
+        -solo hora
+        -13:45:00
+
+    -TIMETZ
+        -Hora con zona horaria
+        -No se usa mucho
+
+    -TIMESTAMP
+        -Fecha y hora
+        -2025-11-15 14:30:00
+    
+    -TIMESTEMPTZ
+        -Timestamp con zona
+        -Es estandar en cloud
+
+#BOOLEANO
+    -BOOLEAN
+        -True/False
+            -TRUE - FALSE
+            -t - f
+            -1 - 0
+
+#JSON (uno de los super poderes en postgreSQL)
+    -JSON
+        -Guarda archivos json sin optimizar
+        -Si se quiere mantener formato EXACTOS
+
+    -JSONB
+        -JSON binario, optimizado
+        -Mejor rendimiento, indexado, rapido
+
+#UUID
+    -UUID
+        -tipo de dato especial para ID unicos globales
+        -Perfecto para API y microservicios
+        -No depende del orden de insercion
+        Muy seguro para bases distribuidas
+
+#ARRAYS
+    -arrays
+        -Utiles para guardar en listas pequeñas
+
+#OTRO TIPO DE DATOS UTILES
+    -BYTEA
+        -Datos binarios
+            -Imagenes
+            -Archivos
+    
+    -INTERVAL
+        -Años/Meses/Horas de diferencia
+
+    
+
